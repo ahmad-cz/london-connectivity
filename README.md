@@ -80,6 +80,37 @@ If you decide to clone this project and try to replicate my analysis, you will e
 
 8. Browse `NB03` to see how I explored the data and generated the insights curated for the [REPORT.md](REPORT.md).
 
+## Mark and Feedback
+
+This project was awarded **88/100**, a first-class mark, and was used by the
+course instructor as a **model solution** (with permission).
+
+| Category | Mark | Band |
+|---|---|---|
+| Research & Methodology Design | 30/30 | WOW (75%+) |
+| Communication & Insights | 34/40 | WOW (75%+) |
+| Technical Implementation | 24/30 | WOW (75%+) |
+| **Total** | **88/100** | |
+
+**What the work was praised for:**
+- The most comprehensive methodology in the cohort — covering every MSOA in
+  London (983 postcodes), grounding design choices (e.g. the 8am peak time) in
+  TfL's own assessment guides and academic literature on deprivation.
+- Clean, fully vectorised code using efficient pandas/numpy operations (e.g. the
+  `haversine_np` function) rather than loops, following the course's code style.
+- Justified, well-researched use of geopandas to match TfL's official mapping style.
+- Exemplary reflection and communication, including transparent documentation of
+  AI use (9 chat logs) with critical evaluation of the advice given.
+- Clear, reproducible README with step-by-step setup and dependency instructions.
+
+**Areas identified for improvement:**
+- Add a borough boundary overlay to the choropleth so geographical patterns are
+  legible to readers unfamiliar with London's geography.
+- Trim plot title lengths for cleaner presentation.
+- Consider `pd.json_normalize` for flattening more complex nested API responses.
+- Leave a blank line before headings and code blocks in Markdown for consistent
+  cross-platform rendering.
+
 # 📟 Get in touch
 
-If you like my work, get in touch with me on [LinkedIn](hwww.linkedin.com/in/ahmad-cz) or [GitHub](https://github.com/ahmad-cz).
+If you like my work, get in touch with me on [LinkedIn](https://www.linkedin.com/in/ahmad-cz/) or [GitHub](https://github.com/ahmad-cz).
